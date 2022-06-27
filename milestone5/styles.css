@@ -1,1 +1,16 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input[type=number] {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
 
+#servererror {
+color: #D9534F;
+}
+
+#toolarge {
+  background: #F2DEDE;
+  color: #A94442;
+}
